@@ -28,21 +28,20 @@ var audiow= new Audio("mixkit-alien-technology-hum-2134.wav")
 var audio_d= new Audio("mixkit-arcade-space-shooter-dead-notification-272.wav")
 var audio_ad= new Audio("mixkit-game-blood-pop-slide-2363.wav")
 var life= 3;
-
-        life_pt.innerHTML=life;
-
+life_pt.innerHTML=life;
 var highScore;
+
+
+
+
+
+
+//intial blockes
 var lc = document.getElementById("hs");
-// sb[0]=document.getElementById("snake");
 var newb=document. createElement("div");
 var de_up=document.getElementById("block");
 
-// newb.style.backgroundColor = "green";
-// newb.style.position="absolute"
-// newb.style.width=8+"px";
-// newb.style.height=8+"px";
-
-    newb.style.top=Y+"px";
+newb.style.top=Y+"px";
 newb.style.left=X+"px";
 sb.push(newb);
 grid.appendChild(newb);
@@ -54,7 +53,7 @@ newb.style.position="absolute"
 newb.style.width=8+"px";
 newb.style.height=8+"px";
 
-    newb.style.top=Y+"px";
+newb.style.top=Y+"px";
 newb.style.left=X-16+"px";
 sb.push(newb);
 grid.appendChild(newb);
@@ -66,15 +65,10 @@ newb.style.backgroundColor = "green";
 newb.style.position="absolute"
 newb.style.width=8+"px";
 newb.style.height=8+"px";
-
-    
-    
-    
-    
  
 
     
-    newb.style.top=Y+"px";
+newb.style.top=Y+"px";
 newb.style.left=X-24+"px";
 sb.push(newb);
 grid.appendChild(newb);
@@ -86,14 +80,7 @@ newb.style.position="absolute"
 newb.style.width=8+"px";
 newb.style.height=8+"px";
 
-    
-    
-    
-    
- 
-
-    
-    newb.style.top=Y+"px";
+newb.style.top=Y+"px";
 newb.style.left=X-32+"px";
 sb.push(newb);
 grid.appendChild(newb);
@@ -102,18 +89,11 @@ grid.appendChild(newb);
 
 
 var sibz=0;
-//rand console
-
 
 function mod(){
     var a=Math.floor(Math.random()*6)+1;
     return a;
 }
-
-
-
-
-
 
 
 var X__;
